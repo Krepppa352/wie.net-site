@@ -3,21 +3,41 @@
         "path": "../img/screenshots/spawn-0.png",
         "description": "Der Spawn des Servers mit den Shops verschiedener Spieler"
     },
+	{
+        "path": "../img/screenshots/end.png",
+        "description": "Die Enddimension des Servers"
+    },
+    {
+        "path": "../img/screenshots/mario.png",
+        "description": "Die (Starter-)Base des Spielers Krepppa352"
+    },
+    {
+        "path": "../img/screenshots/lean.png",
+        "description": "Die (Starter-)Base des Spielers Lean_crafter"
+    },
+	{
+        "path": "../img/screenshots/max-1.png",
+        "description": "Die (Starter-)Base des Spielers ZYXMAXXYZ"
+    },
+	{
+        "path": "../img/screenshots/stefan.png",
+        "description": "Die (Starter-)Base des Spielers zozuzik"
+    },
     {
         "path": "../img/screenshots/lean-peri-0.png",
         "description": "Leans 32x32 Chunks großer Perimeter mit den Anfängen seiner Basis und einigen Farmen in der Mitte"
     },
     {
-        "path": "../img/screenshots/",
-        "description": ""
+        "path": "../img/screenshots/lean-peri-1.png",
+        "description": "ein weiterer Screenshot des Perimeters"
     },
     {
-        "path": "../img/screenshots/",
-        "description": ""
+        "path": "../img/screenshots/industry-0.png",
+        "description": "Die Eisenfarm des Spielers Krepppa352"
     },
     {
-        "path": "../img/screenshots/",
-        "description": ""
+        "path": "../img/screenshots/bartering-farm-0.png",
+        "description": "Die "
     },
     {
         "path": "../img/screenshots/",

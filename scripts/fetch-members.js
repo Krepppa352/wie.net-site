@@ -10,11 +10,16 @@ async function fetchJson(path) {
 fetchJson("../staticdata/members.json").then(() => {
     let index = 0;
     jsonData.forEach((element) => {
-        var innerHTML = document.createElement("div");
-        innerHTML.style = "display: flex; justify-content: flex-start;";
-        var name = element["name"];
-        innerHTML.innerHTML = "<img src='https://minotar.net/helm/" + name + "/64.png'><h1>" + name + "</h1>";
-        document.getElementById("member-container").appendChild(innerHTML);
-        console.log("<img src='https://mintor.net/helm/" + name + "/64.png'>")
+        var playerName = element["name"];
+        var title = document.createElement("div");
+        title.style = "display: flex; justify-content: flex-start;";
+        title.innerHTML = "<img src='https://minotar.net/helm/" + playerName + "/64.png'><h1>" + playerName + "</h1>";
+        document.getElementById("member-container").appendChild(title);
+
+        var description = document.createElement("p");
+        description.textContent = element["description"];
+        document.getElementById("member-container").appendChild(description);
+        var seperator = document.createElement("svg");
+        seperator.poi
     })
 });
