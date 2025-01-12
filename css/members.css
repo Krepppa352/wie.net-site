@@ -8,4 +8,12 @@ img {
 }
 h1 {
     font-size: 48px;
+    flex: 50%;
+}
+#member-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    line-height: 0px;
 }
