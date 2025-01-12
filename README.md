@@ -1,1 +1,1 @@
-In order dor the website to be functional while running locally, you need to disable CORS (Cross-Origin Resource Sharing) in your browser. This is because web browsers block CORS requests made by JavaScript's fetch API since they're neither https nor http.
+In order for the website to be functional while running locally, you need to disable CORS (Cross-Origin Resource Sharing) in your browser. This is because web browsers block CORS requests made by JavaScript's fetch API since they're neither https nor http.
