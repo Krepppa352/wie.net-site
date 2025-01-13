@@ -1,4 +1,4 @@
-let jsonData;
+let jsonData = {};
 let currentIndex = 0;
 async function fetchJson(path) {
     console.log("Fetching data...");
@@ -7,16 +7,18 @@ async function fetchJson(path) {
     console.log("Fetching finished.");
     return jsonData;
 }
-fetchJson("../staticdata/gallery.json");
-
 function swapImage(e) {
-    if (e.code == "ArrowLeft") {
-        currentIndex--;
+    if (e.code === "ArrowLeft") {
+        currentIndex = (currentIndex - 1 + jsonData.length) % jsonData.length;
     }
-    else if (e.code == "ArrowRight") {
-        currentIndex++;
+    else if (e.code === "ArrowRight") {
+        currentIndex = (currentIndex + 1) % jsonData.length;
+    }
+    else {
+        return;
     }
     document.body.style.backgroundImage = "url(" + jsonData[currentIndex]["path"] + ")";
 }
 
 window.addEventListener("keydown", swapImage);
+fetchJson("../staticdata/gallery.json");

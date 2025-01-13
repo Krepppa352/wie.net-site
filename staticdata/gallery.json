@@ -9,26 +9,30 @@
     },
     {
         "path": "../img/screenshots/mario.png",
-        "description": "Die (Starter-)Base des Spielers Krepppa352"
+        "description": "Die Starterbasis von Krepppa352"
     },
     {
         "path": "../img/screenshots/lean.png",
-        "description": "Die (Starter-)Base des Spielers Lean_crafter"
+        "description": "Lean_crafters Die Starterbsis"
     },
 	{
         "path": "../img/screenshots/max-1.png",
-        "description": "Die (Starter-)Base des Spielers ZYXMAXXYZ"
+        "description": "Die Basis des Spielers ZYXMAXXYZ"
     },
 	{
-        "path": "../img/screenshots/stefan.png",
-        "description": "Die (Starter-)Base des Spielers zozuzik"
+        "path": "../img/screenshots/stefan-0.png",
+        "description": "Dieses verschneite Küstendorf wurde von zozuzik gebaut."
     },
     {
         "path": "../img/screenshots/lean-peri-0.png",
-        "description": "Leans 32x32 Chunks großer Perimeter mit den Anfängen seiner Basis und einigen Farmen in der Mitte"
+        "description": "Leans 32x32 Chunks großer Perimeter mit den Anfängen seiner Megabasis und einigen Farmen in der Mitte"
     },
     {
         "path": "../img/screenshots/lean-peri-1.png",
+        "description": "Das gleiche nochmal in Hell. Um den ganzen Perimeter auf's Bild zu kriegen, musste ich meine Render Distance auf 128 Chunks stellen. Das sind über 2000 Blöcke!"
+    },
+    {
+        "path": "../img/screenshots/lean-peri-2.png",
         "description": "Ein weiterer Screenshot des Perimeters"
     },
     {
@@ -40,35 +44,19 @@
         "description": "Die Bartering-Farm von Lean_crafter ermöglicht es, automatisch mit Piglins zu handeln."
     },
     {
-        "path": "../img/screenshots/",
-        "description": ""
+        "path": "../img/screenshots/stefan-1.png",
+        "description": "zozuziks idyllisches Dorf bei Nacht"
     },
     {
-        "path": "../img/screenshots/",
-        "description": ""
+        "path": "../img/screenshots/stefan-2.png",
+        "description": "Jedes Haus hat detaillierte Einrichtung!"
     },
     {
-        "path": "../img/screenshots/",
-        "description": ""
+        "path": "../img/screenshots/lean-storage.png",
+        "description": "Leans autmatisches Lager. Dem Kistenmonster rechts nach zu urteilen hat er allerdings nocht nichts einsortiert..."
     },
     {
-        "path": "../img/screenshots/",
-        "description": ""
-    },
-    {
-        "path": "../img/screenshots/",
-        "description": ""
-    },
-    {
-        "path": "../img/screenshots/",
-        "description": ""
-    },
-    {
-        "path": "../img/screenshots/",
-        "description": ""
-    },
-    {
-        "path": "../img/screenshots/",
-        "description": ""
+        "path": "../img/screenshots/roulette.png",
+        "description": "Das (tatsächlich funktionierende) Roulette in Lean_crafters Casino. \"Today's Lesson: Keep Gambling!\""
     }
 ]
