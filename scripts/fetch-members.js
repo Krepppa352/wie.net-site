@@ -8,7 +8,6 @@ async function fetchJson(path) {
     return jsonData;
 }
 fetchJson("../staticdata/members.json").then(() => {
-    let index = 0;
     jsonData.forEach((element) => {
         var playerName = element["name"];
         var title = document.createElement("div");
@@ -20,6 +19,5 @@ fetchJson("../staticdata/members.json").then(() => {
         description.textContent = element["description"];
         document.getElementById("member-container").appendChild(description);
         var seperator = document.createElement("svg");
-        seperator.poi
     })
 });

@@ -8,6 +8,11 @@ body {
 a         {text-decoration: none}
 a:link    {color: #3d3d3d}
 a:visited {color: black}
+h2 {
+    color: black;
+    font-family: salmond-light;
+    text-decoration: underline;
+}
 #menu-bar {
     display: flex;
     justify-content: space-evenly;
