@@ -1,5 +1,5 @@
-let jsonData = {};
-let currentIndex = 0;
+var jsonData = {};
+var currentIndex = 0;
 async function fetchJson(path) {
     console.log("Fetching data...");
     const fetchResponse = await fetch(path);

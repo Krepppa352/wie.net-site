@@ -1,4 +1,4 @@
-let jsonData;
+var jsonData;
 async function fetchJson(path) {
     console.log("Fetching data...");
     const fetchResponse = await fetch(path);
