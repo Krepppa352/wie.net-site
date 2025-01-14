@@ -2,11 +2,11 @@ body {
     background-image: url("../img/screenshots/stefan-0.png");
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 #title {
-    font-size: 400px;
+    font-size: 270px;
     font-family: "mc7"
 }
 #menu {
