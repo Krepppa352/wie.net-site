@@ -7,7 +7,8 @@ body {
 }
 #title {
     font-size: 270px;
-    font-family: "mc7"
+    font-family: "mc7";
+    color: #578e7e;
 }
 #menu {
     display: flex;
@@ -17,7 +18,6 @@ body {
     border-style: solid;
     border-color: white;
     background-color: rgba(255, 255, 255, 100);
-    color: #578e7e;
     font-family: "Times New Roman", "fa6s", "fa6b";
 }
 .link {
