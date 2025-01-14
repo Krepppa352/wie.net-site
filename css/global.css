@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
+    background-size: cover;
 }
 a         {text-decoration: none}
 a:link    {color: #3d3d3d}

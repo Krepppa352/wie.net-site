@@ -2,4 +2,12 @@ body {
     margin: 0;
     background-image: url("../img/screenshots/spawn-0.png");
     cursor: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#description {
+    color: white;
+    font-size: 30px;
+    padding-top: 40%;
 }

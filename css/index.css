@@ -1,5 +1,6 @@
 body {
     background-image: url("../img/screenshots/stefan-0.png");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -9,17 +10,38 @@ body {
     font-size: 150px;
     font-family: "mc7";
     color: #578e7e;
+    border-top-width: 8px;
+    border-top-style: solid;
+    border-bottom-width: 8px;
+    border-bottom-style: solid;
+    border-color: #578e7e;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
 }
 #menu {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
     border-color: white;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(69, 69, 69, 0);
     font-family: "Times New Roman", "fa6s", "fa6b";
+    font-size: 45px;
+    line-height: 55px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
 }
 .link {
-    flex: 50%;
+    flex-basis: 50%;
 }
+a:hover {text-decoration: underline;}
