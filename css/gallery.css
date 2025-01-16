@@ -33,5 +33,7 @@ body {
     color: white;
     font-size: 350%;
     font-family: "fa6s";
-    cursor: default;
+    cursor: grab;
+    background-color: rgba(69, 69, 69, 0);
+    border-style: none;
 }
