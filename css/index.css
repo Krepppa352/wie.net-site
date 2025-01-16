@@ -18,8 +18,8 @@ body {
     width: 110%;
     text-align: center;
     line-height: 70px;
-    margin-top: 35%;
-    margin-bottom: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
 }
@@ -32,8 +32,8 @@ body {
     border-color: white;
     background-color: rgba(69, 69, 69, 0);
     font-family: "Times New Roman", "fa6s", "fa6b";
-    font-size: 3.5%;
-    line-height: 3.7%;
+    font-size: 45px;
+    line-height: 55px%;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     padding-left: 4%;
