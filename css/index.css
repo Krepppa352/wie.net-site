@@ -15,11 +15,11 @@ body {
     border-bottom-width: 8px;
     border-bottom-style: solid;
     border-color: #578e7e;
-    width: 100%;
+    width: 110%;
     text-align: center;
     line-height: 70px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 4.5%;
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
 }
@@ -32,8 +32,8 @@ body {
     border-color: white;
     background-color: rgba(69, 69, 69, 0);
     font-family: "Times New Roman", "fa6s", "fa6b";
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 37px;
+    line-height: 42px;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     padding-left: 4%;
